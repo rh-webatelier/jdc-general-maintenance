@@ -594,6 +594,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .areas__note { margin-top: 1.5rem; color: var(--muted); font-size: .95rem; }
 .areas__note a { color: var(--amber-600); font-weight: 600; }
 @media (min-width: 480px) { .areas__cols { grid-template-columns: 1fr 1fr; } }
+.areas__cols--single { grid-template-columns: 1fr !important; max-width: 420px; }
 
 /* Lightbox */
 .lightbox {
