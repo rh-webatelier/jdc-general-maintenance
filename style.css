@@ -300,6 +300,15 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .img-placeholder--tall { aspect-ratio: 3 / 4; height: 100%; }
 .img-placeholder--map  { aspect-ratio: 4 / 3; }
 
+.areas__map {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border: 0;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  filter: saturate(.9);
+}
+
 /* ---------- 7. TRUST BAR ---------- */
 .trustbar { background: var(--navy); color: #fff; }
 .trustbar__grid {
